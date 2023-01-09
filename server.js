@@ -44,7 +44,7 @@ const server = app.listen(
 const io = require("socket.io")(server, {
   pingTimeout: 120000,
   cors: {
-    origin: "https://vercel.com/imsumn/weeechat-sk";
+    origin: "https://weeechat-sk.vercel.app/";
     // credentials: true,
   },
 });
